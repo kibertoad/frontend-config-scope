@@ -21,6 +21,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "build:release": "tsc --project tsconfig.release.json",
     "test": "vitest",
     "test:karma": "",
     "test:coverage": "vitest --coverage",
@@ -29,7 +30,7 @@
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build:release"
   },
   "dependencies": {},
   "devDependencies": {
