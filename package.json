@@ -21,6 +21,7 @@
   "scripts": {
     "build": "tsc",
     "test": "vitest",
+    "test:karma": "",
     "test:coverage": "vitest --coverage",
     "test:ci": "npm run lint && npm run test:coverage",
     "test:update-snapshots": "vitest -u",
