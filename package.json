@@ -8,6 +8,7 @@
   },
   "type": "module",
   "license": "Apache-2.0",
+  "description": "Library for handling retry logic with undici HTTP client",
   "files": [
     "dist/**",
     "LICENSE",
@@ -15,10 +16,14 @@
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "type": "commonjs",
   "publishConfig": {
     "access": "public"
   },
+  "keywords": [
+    "config",
+    "frontend",
+    "validation"
+  ],
   "scripts": {
     "build": "tsc",
     "build:release": "tsc --project tsconfig.release.json",
