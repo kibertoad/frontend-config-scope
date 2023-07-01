@@ -1,5 +1,9 @@
 # frontend-config-scope
 
+[![NPM Version](https://img.shields.io/npm/v/frontend-config-scope.svg)](https://npmjs.org/package/frontend-config-scope)
+[![Build Status](https://github.com/kibertoad/frontend-config-scope/workflows/ci/badge.svg)](https://github.com/kibertoad/frontend-config-scope/actions)
+[![Coverage Status](https://coveralls.io/repos/kibertoad/frontend-config-scope/badge.svg?branch=main)](https://coveralls.io/r/kibertoad/frontend-config-scope?branch=main)
+
 Config management for the frontend
 
 ## Basic example

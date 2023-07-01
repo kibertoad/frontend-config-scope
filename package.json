@@ -1,6 +1,6 @@
 {
   "name": "frontend-config-scope",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/kibertoad/frontend-config-scope",
   "repository": {
     "type": "git",
@@ -8,7 +8,7 @@
   },
   "type": "module",
   "license": "Apache-2.0",
-  "description": "Library for handling retry logic with undici HTTP client",
+  "description": "Config management for the frontend",
   "files": [
     "dist/**",
     "LICENSE",
