@@ -26,6 +26,7 @@
     "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/indent": "off",
     "@typescript-eslint/no-unsafe-assignment": "off",
+    "@typescript-eslint/no-unsafe-call": "off",
     "@typescript-eslint/no-explicit-any": "warn",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/consistent-type-imports": "warn",
@@ -59,6 +60,7 @@
         "@typescript-eslint/no-unsafe-assignment": "off",
         "@typescript-eslint/no-unsafe-argument": "off",
         "@typescript-eslint/no-unsafe-member-access": "off",
+        "@typescript-eslint/restrict-template-expressions": "off",
         "@typescript-eslint/no-unsafe-call": "off",
         "@typescript-eslint/no-explicit-any": "off",
         "max-statements": ["off"]
