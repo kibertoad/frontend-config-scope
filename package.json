@@ -54,7 +54,7 @@
     "karma-typescript": "^5.5.4",
     "prettier": "^2.8.8",
     "typescript": "^5.1.6",
-    "vitest": "^0.32.2",
+    "vitest": "^0.34.4",
     "zod": "^3.21.4"
   }
 }
