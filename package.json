@@ -1,6 +1,6 @@
 {
   "name": "frontend-config-scope",
-  "version": "1.0.5",
+  "version": "2.0.0-RC1",
   "homepage": "https://github.com/kibertoad/frontend-config-scope",
   "repository": {
     "type": "git",
@@ -15,6 +15,7 @@
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "type": "module",
   "publishConfig": {
     "access": "public"
   },
@@ -31,30 +32,27 @@
     "test:coverage": "vitest --coverage",
     "test:ci": "npm run lint && npm run test:coverage",
     "test:update-snapshots": "vitest -u",
-    "lint": "eslint . --ext .ts",
-    "lint:fix": "eslint . --fix",
-    "format": "prettier --write .",
+    "lint": "eslint . --ext .ts && prettier --check --log-level warn \"**/*.{json,md,ts}\"",
+    "lint:fix": "eslint . --fix && prettier --write --log-level warn \"**/*.{json,md,ts}\"",
     "prepublishOnly": "npm run build:release"
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/node": "^20.3.2",
-    "@typescript-eslint/eslint-plugin": "^5.60.1",
-    "@typescript-eslint/parser": "^5.60.1",
-    "@vitest/coverage-v8": "^0.32.2",
+    "@types/node": "^20.10.8",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "@vitest/coverage-v8": "^1.2.2",
     "del-cli": "^5.0.0",
     "eslint": "^8.43.0",
-    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-vitest": "^0.2.6",
+    "eslint-plugin-vitest": "^0.3.21",
     "karma": "^6.4.2",
     "karma-chrome-launcher": "^3.2.0",
     "karma-jasmine": "^5.1.0",
     "karma-typescript": "^5.5.4",
-    "prettier": "^2.8.8",
-    "typescript": "^5.1.6",
-    "vitest": "^0.32.2",
-    "zod": "^3.21.4"
+    "prettier": "^3.2.4",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.2",
+    "zod": "^3.22.4"
   }
 }

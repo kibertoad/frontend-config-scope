@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
     "outDir": "dist",
-    "module": "ES2020",
+    "module": "Node16",
     "target": "ES2020",
     "lib": ["ES2020", "dom"],
-    "sourceMap": true,
+    "sourceMap": false,
     "declaration": true,
     "declarationMap": false,
     "types": ["node", "vitest/globals"],
     "strict": true,
-    "moduleResolution": "Node",
+    "moduleResolution": "Node16",
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true,
@@ -19,8 +19,8 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
   },
   "include": ["lib", "test", "index.ts"],
-  "exclude": ["node_modules", "dist", "vitest.config.ts"]
+  "exclude": ["node_modules", "dist", "vitest.config.ts"],
 }
