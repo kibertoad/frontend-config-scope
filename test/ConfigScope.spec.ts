@@ -1,5 +1,5 @@
-import type { EnvValueTransformer, EnvValueValidator } from '../lib/config/ConfigScope'
-import { ConfigScope } from '../lib/config/ConfigScope'
+import type { EnvValueTransformer, EnvValueValidator } from '../lib/config/ConfigScope.js'
+import { ConfigScope } from '../lib/config/ConfigScope.js'
 
 export const createRangeValidator = (
   greaterOrEqualThan: number,

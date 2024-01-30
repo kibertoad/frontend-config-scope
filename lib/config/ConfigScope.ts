@@ -1,4 +1,4 @@
-import { ConfigError } from './ConfigError'
+import { ConfigError } from './ConfigError.js'
 
 export type EnvValueValidator<InputType> = (value: InputType) => boolean
 export type EnvValueTransformer<InputType, OutputType> = (value: InputType) => OutputType
