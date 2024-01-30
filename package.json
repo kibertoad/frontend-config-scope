@@ -1,6 +1,6 @@
 {
   "name": "frontend-config-scope",
-  "version": "2.0.0-RC1",
+  "version": "2.0.0",
   "homepage": "https://github.com/kibertoad/frontend-config-scope",
   "repository": {
     "type": "git",
