@@ -45,7 +45,7 @@
     "del-cli": "^5.0.0",
     "eslint": "^8.43.0",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-vitest": "^0.3.21",
+    "eslint-plugin-vitest": "^0.5.3",
     "karma": "^6.4.2",
     "karma-chrome-launcher": "^3.2.0",
     "karma-jasmine": "^5.1.0",
